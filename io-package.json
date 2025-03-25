@@ -1,91 +1,19 @@
 {
-	"common": {
-		"name": "solarguardian",
-		"version": "0.0.1",
-		"news": {
-			"0.0.1": {
-				"en": "initial release",
-				"de": "Erstveröffentlichung",
-				"ru": "Начальная версия",
-				"pt": "lançamento inicial",
-				"nl": "Eerste uitgave",
-				"fr": "Première version",
-				"it": "Versione iniziale",
-				"es": "Versión inicial",
-				"pl": "Pierwsze wydanie",
-				"uk": "Початкова версія",
-				"zh-cn": "首次出版"
-			}
-		},
-		"titleLang": {
-			"en": "Solarguardian API",
-			"de": "Solarguardian API",
-			"ru": "Solarguardian API",
-			"pt": "Solarguardian API",
-			"nl": "Solarguardian API",
-			"fr": "Solarguardian API",
-			"it": "Solarguardian API",
-			"es": "Solarguardian API",
-			"pl": "Solarguardian API",
-			"uk": "Solarguardian API",
-			"zh-cn": "Solarguardian API"
-		},
-		"desc": {
-			"en": "Connects to Solarguardian API to fetch solar power data",
-			"de": "Connects to Solarguardian API to fetch solar power data",
-			"ru": "Connects to Solarguardian API to fetch solar power data",
-			"pt": "Connects to Solarguardian API to fetch solar power data",
-			"nl": "Connects to Solarguardian API to fetch solar power data",
-			"fr": "Connects to Solarguardian API to fetch solar power data",
-			"it": "Connects to Solarguardian API to fetch solar power data",
-			"es": "Connects to Solarguardian API to fetch solar power data",
-			"pl": "Connects to Solarguardian API to fetch solar power data",
-			"uk": "Connects to Solarguardian API to fetch solar power data",
-			"zh-cn": "Connects to Solarguardian API to fetch solar power data"
-		},
-		"authors": [
-			"Kuebi7 <andreas.kueberl@outlook.com>"
-		],
-		"keywords": [
-			"Epever",
-			"Solar",
-			"Solar Guardian"
-		],
-		"licenseInformation": {
-			"type": "free",
-			"license": "MIT"
-		},
-		"platform": "Javascript/Node.js",
-		"icon": "solarguardian.png",
-		"enabled": true,
-		"extIcon": "https://raw.githubusercontent.com/Kuebi7/ioBroker.solarguardian/main/admin/solarguardian.png",
-		"readme": "https://github.com/Kuebi7/ioBroker.solarguardian/blob/main/README.md",
-		"loglevel": "info",
-		"tier": 3,
-		"mode": "daemon",
-		"type": "energy",
-		"compact": true,
-		"connectionType": "cloud",
-		"dataSource": "poll",
-		"adminUI": {
-			"config": "json"
-		},
-		"dependencies": [
-			{
-				"js-controller": ">=6.0.11"
-			}
-		],
-		"globalDependencies": [
-			{
-				"admin": "7.0.23"
-			}
-		]
-	},
-	"native": {
-		"appKey": "",
-		"appSecret": "",
-		"pollInterval": "60"
-	},
-	"objects": [],
-	"instanceObjects": []
+  "common": {
+    "name": "solarguardian",
+    "version": "0.0.1",
+    "title": "Solarguardian API Adapter",
+    "desc": "Connects to Solarguardian API to fetch solar power data",
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "loglevel": "info",
+    "type": "energy",
+    "enabled": true,
+    "keywords": ["solar", "energy", "solarguardian"]
+  },
+  "native": {
+    "appKey": "",
+    "appSecret": "",
+    "pollInterval": 300000 // Abrufintervall in Millisekunden (z. B. 5 Minuten)
+  }
 }
