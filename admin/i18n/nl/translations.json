@@ -1,0 +1,6 @@
+{
+	"solarguardian adapter settings": "Adapterinstellingen voor solarguardian",
+	"appKey": "appKey",
+	"appSecret": "appSecret",
+	"pollInterval": "pollInterval"
+}

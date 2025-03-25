@@ -1,0 +1,54 @@
+{
+	"expert": "no",
+	"cli": false,
+	"adapterName": "solarguardian",
+	"title": "Solarguardian API",
+	"description": "Connects to Solarguardian API to fetch solar power data",
+	"keywords": [
+		"Epever",
+		"Solar",
+		"Solar Guardian"
+	],
+	"contributors": "",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "energy",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"adapterSettings": [
+		{
+			"key": "appKey",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "appSecret",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "pollInterval",
+			"label": "",
+			"inputType": "text",
+			"defaultValue": "60"
+		}
+	],
+	"language": "JavaScript",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"tools": [
+		"ESLint"
+	],
+	"authorName": "Kuebi7",
+	"authorGithub": "Kuebi7",
+	"authorEmail": "andreas.kueberl@outlook.com",
+	"license": "MIT License",
+	"target": "github",
+	"creatorVersion": "2.6.5"
+}

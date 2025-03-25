@@ -1,0 +1,21 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"appKey": {
+			"type": "text",
+			"label": "appKey",
+			"newLine": true
+		},
+		"appSecret": {
+			"type": "text",
+			"label": "appSecret",
+			"newLine": true
+		},
+		"pollInterval": {
+			"type": "text",
+			"label": "pollInterval",
+			"newLine": true
+		}
+	}
+}
